@@ -1,0 +1,6 @@
+for i in range(int(input())):
+    c = 0
+    a = int(input())
+    for i in range(1, a+1):
+        c += i*i
+    print(c)
